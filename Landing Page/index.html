@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+
+    <div class="container">
+        <!-- navbar  -->
+        <div class="navbar">
+            <div class="navbar-1"><h2>Etech.</h2></div>
+
+            <div class="navbar-2 hideMobile">
+                <select name="" id="">
+                    <option value="">Courses</option>
+                    <option value="">Computer Engineering</option>
+                    <option value="">Electronics and Telecom</option>
+                    <option value="">Mechanical Engineering</option>
+                    <option value="">Civil Engineering</option>
+                    <option value="">Electrical Engineering</option>
+                    <option value="">AI and ML</option>
+                </select>
+
+                <select name="" id="">
+                    <option value="">Faculty</option>
+                    <option value="">Dr. Praveen Kumar Sharma</option>
+                    <option value="">Dr. Shyam Chand</option>
+                    <option value="">Er. Ajay Lotheta</option>
+                    <option value="">Er. Anu Mahindru</option>
+                    <option value="">Er. Balvir Singh</option>
+                </select>
+
+                <select name="" id="">
+                    <option value="">Offers</option>
+                    <option value="">Summer Offers</option>
+                </select>
+
+                <p>Contact</p>
+            </div>
+
+            <div class="navbar-3 hideMobile">
+                <button class="sign-in-button">Sign In</button>
+                <button class="trail-button">Free Trail</button>
+            </div>
+            <a href="#" class="hideComp" onclick="showSidebar()"><i class="fa-solid fa-bars"></i></a>
+        </div>
+            <!-- sidebar -->
+            <div class="navbar-2 sidebar">
+                <a href="#" onclick="hideSidebar()"><i class="fa-solid fa-xmark"></i></a>
+                <select name="" id="">
+                    <option value="">Courses</option>
+                    <option value="">Computer Engineering</option>
+                    <option value="">Electronics and Telecom</option>
+                    <option value="">Mechanical Engineering</option>
+                    <option value="">Civil Engineering</option>
+                    <option value="">Electrical Engineering</option>
+                    <option value="">AI and ML</option>
+                </select>
+
+                <select name="" id="">
+                    <option value="">Faculty</option>
+                    <option value="">Dr. Praveen Kumar Sharma</option>
+                    <option value="">Dr. Shyam Chand</option>
+                    <option value="">Er. Ajay Lotheta</option>
+                    <option value="">Er. Anu Mahindru</option>
+                    <option value="">Er. Balvir Singh</option>
+                </select>
+
+                <select name="" id="">
+                    <option value="">Offers</option>
+                    <option value="">Summer Offers</option>
+                </select>
+
+                <p>Contact</p>
+                <button class="sign-in-button">Sign In</button>
+                <button class="trail-button">Free Trail</button>
+            </div>
+
+        <!-- main section 1  -->
+        <div class="box1">
+            <div class="box1-text">
+                <pre>Develop your
+skills in a new
+and unique way</pre><br><br>
+                <p>Explore a transformative approach to skill development on our online learning platform. Uncover a new realm of learning experiences and elevate your expertise in uniqye ways.</p><br><br>
+
+                <div class="box-1-button">
+                    <button class="enroll-button">Enroll Now</button>
+                    <button class="etech-button">What's Etech</button>
+                </div>
+            </div>
+
+            <div class="box1-img">
+                <img class="std-img" src="images/file.png" alt="">
+            </div>
+        </div>
+
+        <div class="box2">
+            <div class="box2-icon"><pre>duolingo</pre></div>
+            <div class="box2-icon"><i class="fa-solid fa-ghost"></i><pre> magicleap</pre></div>
+            <div class="box2-icon"><i class="fa-brands fa-microsoft"></i><pre> Microsoft</pre></div>
+            <div class="box2-icon"><i class="fa-solid fa-umbrella"></i><pre> Codecov</pre></div>
+            <div class="box2-icon"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></div>
+        </div>
+
+        <!-- box 3  -->
+        <div class="box3">
+            <div class="box3-search">
+                <p>Search Courses</p><br><br>
+                <div id="box3-search">
+                    <div id="box3-search-bar">
+                        <i class="fa-solid fa-magnifying-glass"></i><input id="search-bar" type="text" placeholder="Search for over 50+ courses">
+                    </div>
+                    <button>Search</button>
+                </div>
+            </div>
+
+            <div class="box3-main">
+                <div class="box3-img"><img id="box3-img" src="images/img2.jpg" alt="" height="450px"></div>
+                <div class="box3-text">
+                    <p class="text-1 box3-heading">Benefits</p><p class="box3-heading">From our Online Learning</p><br><br>
+
+                    <div><div class="box3-icon"><i class="fa-solid fa-graduation-cap"></i><p class="box3-sub-heading">Online Degrees</p></div><p>Earn appreciated degree from comfort of your homes. Opening doors to endless of opportunities.</p></div><br>
+
+                    <div><div class="box3-icon"><i class="fa-solid fa-book-open"></i><p class="box3-sub-heading">Short Courses</p></div><p>Enhance your skills with our wide range of short courses tailored to your needs.</p></div><br>
+
+                    <div><div class="box3-icon"><i class="fa-regular fa-circle-user"></i><p class="box3-sub-heading">Training From Experts</p></div><p>Learn directly from industry experts and experienced professionals.</p></div><br>
+
+                    <div><div class="box3-icon"><i class="fa-solid fa-play"></i><p class="box3-sub-heading">1.5k+ Video Courses</p></div><p>Access to our vast video library, more than 1500 high quality video courses across various disciplines.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- box4  -->
+        <div class="box4">
+            <div class="box4-txt">
+                <p class="box4-heading">Our Popular Courses</p><br>
+                <p class="box4-subheading">We pride ourselves on offering comprehensive, high-quality courses designed to help you succeed in today's competitive job market. Whether you are looking to advance in your current career or explore new opportunities, our expert led programs provide the knowledge and skills you need to thrive.</p>
+            </div>
+
+            <div class="box4-img">
+                <div class="box4-img-1">
+                    <img class="img-4" src="images/img3.jpg" height="300" width="90%">
+                    <p class="img-title"><b>Web Design & Development</b></p><br><hr>
+                    <div class="img-footer">
+                        <div class="img-footer-1"><i class="fa-solid fa-book-bookmark"></i><p>23 courses</p></div>
+                        <div class="img-footer-2"><i class="fa-regular fa-user"></i><p>1.4k enrolled</p></div>
+                    </div>
+                </div>
+
+                <div class="box4-img-2">
+                    <img class="img-4" src="images/img4.avif" height="300" width="90%">
+                    <p class="img-title"><b>Wireframing and Prototyping</b></p><br><hr>
+                    <div class="img-footer">
+                        <div class="img-footer-1"><i class="fa-solid fa-book-bookmark"></i><p>12 courses</p></div>
+                        <div class="img-footer-2"><i class="fa-regular fa-user"></i><p>806 enrolled</p></div>
+                    </div>
+                </div>
+
+                <div class="box4-img-3">
+                    <img class="img-4" src="images/img5.avif" height="300" width="90%">
+                    <p class="img-title"><b>Wireframing and Prototyping</b></p><br><hr>
+                    <div class="img-footer">
+                        <div class="img-footer-1"><i class="fa-solid fa-book-bookmark"></i><p>18 courses</p></div>
+                        <div class="img-footer-2"><i class="fa-regular fa-user"></i><p>596 enrolled</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- box 5  -->
+        <div class="box5">
+            <div class="box5-text">
+                <div class="box5-text-1">
+                    <div class="text-1-heading"><p>If You Are A certified Teacher Then</p><p id="text-1-heading">Become An Instructor</p></div><br>
+                    <div class="text-1-subheading"><p>Unlock the opportunity to inspire and educate by joing our team of instructors, if you're a certified teacher, elevate your impact and share your expertise with learners worldwide.</p></div><br><br>
+                </div>
+                <div class="box5-text-2">
+                    <div class="text-2-heading"><b>Enjoy Many Perks</b></div><br>
+                    <div class="text-2-subheading">
+                        <div class="list-1">
+                            <pre>
+                                <ul><li> Global Impact</li>
+                                    <li> Flexible Schedule</li>
+                                    <li> Innovative Teaching Tools</li>
+                                    <li> Recognition And reputation</li>
+                                </ul>
+                            </pre>
+                        </div>
+                        <div class="list-2">
+                            <pre>
+                                <ul><li>Creative Freedom</li>
+                                    <li>Professional Development</li>
+                                    <li>Networking Opportunities</li>
+                                    <li>Monetize Your Expertise</li>
+                                </ul>
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+                <div class="box5-text-button"><button id="box5-text-button">Become an Instructor</button></div>
+            </div>
+
+            <div class="box5-img"><div class="box5-2-img"><img id="box5-img" src="images/girl.avif" alt=""></div></div>
+        </div>
+
+        <!-- box 6 -->
+         <div class="box6">
+            <div class="box6-text">
+                <div class="box6-text-heading">Student's Testimonials</div><br>
+                <div class="box6-text-subheading">We believe that the true measure of our success lies in the experiences and acheivements of our students. Here are the firsthand accounts from our students about their time with us, the opportunities they've embraced, and the growth they've experienced.</div>
+            </div>
+
+            <div class="box6-img">
+                <div class="box6-img-1">
+                    <div class="box6-img-part"><img id="box6-img-std" height="100" width="100" src="images/tchr-1.jpg" alt=""><div class="text-part6"><p class="box6-img-heading">Jessica A.</p><p>Class of 2023</p></div></div>
+                    <div class="box6-text-part"><p>"My time at Etech has been nothing short of amazing. The supportive faculty and challenging curriculum have prepared me for my future like I never imagined. I've made lifelong friends and learned so much more than I ever thought possible.</p></div>
+                </div>
+                <div class="box6-img-2">
+                    <div class="box6-img-part"><img id="box6-img-std" height="100" width="100" src="images/tchr-2.jpg" alt=""><div class="text-part6"><p class="box6-img-heading">Antha K.</p><p>Class of 2022</p></div></div>
+                    <div class="box6-text-part"><p>Joining Etech was the best decision I ever made. the opportunities for growth here are endless, from extracurricular activities to leadership roles. I've grown so much as a person and a student.</p></div>
+                </div>
+                <div class="box6-img-3">
+                    <div class="box6-img-part"><img id="box6-img-std" height="100" src="images/tchr-3.jpg" alt=""><div class="text-part6"><p class="box6-img-heading">Michael B.</p><p>Class of 2024</p></div></div>
+                    <div class="box6-text-part"><p>the environment here is incredibly nurturing. The teachers genuinely care about your success, both academically and personally. I felt more than prepared when I completed my course and moved on from Etech.</p></div>
+                </div>
+            </div>
+         </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
